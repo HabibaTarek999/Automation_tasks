@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AMAZONCASES" verbose="1" >
+    <test name="Regression1">
+        <classes>
+            <class name="TaskOne"/>
+        </classes>
+    </test>
+
+    <test name="Regression2">
+        <classes>
+            <class name="TaskTwo"/>
+        </classes>
+    </test>
+</suite>
